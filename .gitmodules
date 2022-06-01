@@ -1,0 +1,4 @@
+[submodule "curtisvermeeren.github.io/public"]
+	path = curtisvermeeren.github.io/public
+	url = https://github.com/CurtisVermeeren/curtisvermeeren.github.io.git
+	branch = main
