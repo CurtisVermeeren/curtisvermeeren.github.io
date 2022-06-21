@@ -2,3 +2,6 @@
 	path = curtisvermeeren.github.io/public
 	url = https://github.com/CurtisVermeeren/curtisvermeeren.github.io.git
 	branch = main
+[submodule "curtisvermeeren.github.io/themes/cayman-hugo-theme"]
+	path = curtisvermeeren.github.io/themes/cayman-hugo-theme
+	url = https://github.com/zwbetz-gh/cayman-hugo-theme.git
