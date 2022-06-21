@@ -2,17 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://curtisvermeeren.github.io/posts/another-text-post-2022-06-21/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://curtisvermeeren.github.io/</loc>
-    <lastmod>2022-06-01T03:38:29+00:00</lastmod>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curtisvermeeren.github.io/posts/</loc>
-    <lastmod>2022-06-01T03:38:29+00:00</lastmod>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://curtisvermeeren.github.io/posts/new/</loc>
-    <lastmod>2022-06-01T03:38:29+00:00</lastmod>
-  </url><url>
-    <loc>https://curtisvermeeren.github.io/categories/</loc>
+    <loc>https://curtisvermeeren.github.io/tags/second-tag/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curtisvermeeren.github.io/tags/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curtisvermeeren.github.io/tags/test/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curtisvermeeren.github.io/posts/test-post-2022-06-21/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curtisvermeeren.github.io/about/</loc>
+  </url><url>
+    <loc>https://curtisvermeeren.github.io/contact/</loc>
   </url>
 </urlset>
