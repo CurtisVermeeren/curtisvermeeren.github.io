@@ -1,7 +1,7 @@
 baseURL: 'https://curtisvermeeren.github.io/'
 languageCode: en-us
 defaultContentLanguage: en
-title: Cayman
+title: Blog
 theme: cayman-hugo-theme
 
 # Google analytics
