@@ -1,0 +1,49 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Code & Coordinates
+theme: ["PaperMod"]
+
+# Enable the site navbar links
+menu:
+      main:
+        - name: Archive
+          url: archives/
+        - name: About
+          url: about/
+        - name: Search
+          url: search/
+        - name: Tags
+          url: tags/
+
+
+outputs:
+    home:
+        - HTML
+        - JSON
+
+# Enable emoji support 
+# The emoji cheatsheet is useful for emoji shorthand codes https://www.webfx.com/tools/emoji-cheat-sheet/
+enableEmoji: true
+
+params:
+    # Default theme is auto (light or dark)
+    defaultTheme: auto
+    disableThemeToggle: false
+
+    # Show nav breadcrumbs when viewing posts. ex posts/go/newPost
+    ShowBreadCrumbs: true
+    # Show the copy button in code blocks
+    ShowCodeCopyButtons: true
+    # Show the reading time for a post
+    ShowReadingTime: true
+
+    # fusejs serach options
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+        keys: ["title", "permalink", "summary", "content"]

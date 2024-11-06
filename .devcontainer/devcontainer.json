@@ -3,19 +3,29 @@
 	"dockerComposeFile": [
 		"docker-compose.yml"
 	],
-
-	// Set *default* container specific settings.json values on container create.
-	"settings": {},
-
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [],
-
 	"service": "hugo-blog",
-
 	"workspaceFolder": "/app",
-
 	"features": {
-		"homebrew": "latest"
+		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"terminal.integrated.profiles.linux": {
+					"zsh": {
+						"path": "/bin/zsh"
+					}
+				}
+			},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"golang.go",
+				"codeium.codeium",
+				"ms-vscode.makefile-tools"
+			]
+		}
 	},
 	"postCreateCommand": "brew install hugo"
 }

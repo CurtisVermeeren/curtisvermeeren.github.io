@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React on Code &amp; Coordinates</title>
+    <link>http://localhost:1313/tags/react/</link>
+    <description>Recent content in React on Code &amp; Coordinates</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Nov 2024 18:19:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second Test Post</title>
+      <link>http://localhost:1313/posts/secondpost/</link>
+      <pubDate>Wed, 06 Nov 2024 18:19:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/secondpost/</guid>
+      <description>&lt;p&gt;React is a popular front-end library for JavaScript which is good for its component-based architecture, ease of debugging, and its high performance. It&amp;rsquo;s also a good choice because it&amp;rsquo;s actively maintained by Facebook, has a large community of developers, and is easy to learn.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
